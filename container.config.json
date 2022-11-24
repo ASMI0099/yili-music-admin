@@ -1,0 +1,21 @@
+{
+  "containerPort": 80,
+  "minNum": 0,
+  "maxNum": 10,
+  "cpu": 0.25,
+  "mem": 0.5,
+  "policyType": "cpu",
+  "policyThreshold": 60,
+  "policyDetails": [
+    {
+      "PolicyType": "cpu",
+      "PolicyThreshold": 60
+    },
+    {
+      "PolicyType": "mem",
+      "PolicyThreshold": 50
+    }
+  ],
+  "envParams": {},
+  "customLogs": "stdout"
+}
